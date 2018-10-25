@@ -1,0 +1,46 @@
+/*nav*/
+header a{
+  color: black;
+  font-size: 18px;
+  text-align: right;
+  padding: 40px 0px 0px 0px;
+}
+
+header img{
+  float: left;
+}
+
+nav div{
+  padding-top: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+header a:hover{
+  color: #576f77;
+}
+/*img*/
+.logo{
+  width:50px;
+}
+
+.portada{
+  width: 100%;
+}
+
+#indice-img{
+}
+/*estuctura*/
+/*Text*/
+h1{
+  text-align: center;
+}
+
+p{
+  font-size: 17px;
+  padding-top:8px;
+}
+/*div*/
+#indice{
+  background-color: #fc736b;
+}
