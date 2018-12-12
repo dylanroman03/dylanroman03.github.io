@@ -58,6 +58,7 @@ nav div:hover{
   margin-top: 25px;
   margin-bottom: 15px;
 }
+
 /*Text*/
 h1{
   text-align: center;
@@ -67,7 +68,44 @@ p{
   font-size: 17px;
   padding-top:8px;
 }
+
+.active{
+  text-decoration-style: none;
+  color: black;
+}
+
+.active:hover{
+  text-decoration: none;
+  color: black;
+}
 /*div*/
 #indice{
   background-color: #fc736b;
+}
+
+/*Post*/
+.post a img{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.post-info{
+  margin-top: 10px;
+}
+
+.post-title{
+  margin-top: 1px;
+}
+
+.button-post{
+  margin-top: 10px;
+}
+
+.miga-de-pan{
+  margin-top: 10px;
+}
+
+.miga-de-pan a{
+  font-size: 15px;
+  text-align: left;
 }
