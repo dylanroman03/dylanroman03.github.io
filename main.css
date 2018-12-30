@@ -1,6 +1,8 @@
 body{
   background-color: #e9ecef;
 }
+/*span*/
+
 /*nav*/
 nav div a{
   color: black;
@@ -14,6 +16,7 @@ nav div a:hover{
 
 .header{
   background-color: #292961;
+  margin-top: none;
 }
 
 header a{
@@ -26,6 +29,11 @@ header a{
 
 header img{
   float: left;
+}
+
+#espacio{
+  margin-left: 230px;
+  text-align: center;
 }
 
 nav div{
@@ -42,14 +50,37 @@ nav div:hover{
   background-color: #8c8caa;
 }
 /*img*/
+footer img{
+  width: 5%;
+}
+.avatar{
+  width: 100%;
+}
+
 .portada{
   width: 100%;
+}
+
+.post-img{
+  width: 80%;
+  margin-left: 100px;
+  margin-right: 50px;
 }
 
 .logo{
   width: 40px;
 }
+
+.avatar-panel{
+  width: 10%;
+}
 /*estuctura*/
+footer{
+  background-color: black;
+  color: white;
+  margin-top: 30px;
+}
+
 .article{
   background-color: white;
   border-radius: 10px;
@@ -69,6 +100,28 @@ p{
   padding-top:8px;
 }
 
+.tacks{
+  background-color: #e9ecef;
+  border-radius: 5%;
+  padding: 5px;
+  color: black;
+  }
+
+.tacks:hover{
+  color: black;
+  text-decoration: none;
+}
+
+.text-panel{
+  color: black;
+  text-decoration: none;
+}
+
+.text-panel:hover{
+  color: black;
+  text-decoration: none;
+}
+
 .active{
   text-decoration-style: none;
   color: black;
@@ -78,12 +131,25 @@ p{
   text-decoration: none;
   color: black;
 }
+
+.avatar-text{
+  font-size: 18px;
+}
 /*div*/
 #indice{
   background-color: #fc736b;
 }
 
+#boxer-user{
+  border-top-color: #83d0f2;
+  border-top-style: solid;
+  border-top-width: 5px;
+}
 /*Post*/
+.posts:hover{
+  opacity: 0.8;
+}
+
 .post a img{
   width: 100%;
   margin-top: 10px;
@@ -105,7 +171,6 @@ p{
   margin-top: 10px;
 }
 
-.miga-de-pan a{
-  font-size: 15px;
-  text-align: left;
+.active{
+
 }
